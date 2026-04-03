@@ -34,3 +34,21 @@ const myFunction = function() {
 
 console.log(typeof bigNumber)
 
+// stack (primitive) heap(non primitive)
+
+let nameAnkur = "Ankur"
+anotherName = "readyAnkur"
+
+console.log(nameAnkur)
+console.log(anotherName)
+
+let userOne = {
+    email: "ankur.raj.vns@gmail.com",
+    upi: "ankur@gpay"
+}
+
+let userTwo = userOne
+
+userTwo.email = "jaya@gmail.com"
+console.log(userOne.email)
+
